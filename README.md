@@ -33,7 +33,7 @@ But it is possible to run this project on your machine, configure a Twilio accou
   - Read the section **Hooking up the bot to Whatsapp** from [the same article](https://www.twilio.com/blog/whatsapp-chatbot-ruby-sinatra-twilio).
   - **Important:** After starting ngrok replace the ngrok URL [here](https://github.com/bc-nogueira/whatsapp-todo/blob/main/config/environments/development.rb#L53) with your own ngrok URL.
 
-You are good to go!
+You are good to go! :smile:
 
 ## Available commands
 
