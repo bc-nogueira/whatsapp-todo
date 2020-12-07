@@ -16,14 +16,24 @@ This was done for study purposes, to learn more about [Twilio](https://www.twili
 - ![Twilio](https://img.shields.io/badge/twilio-F22F46?logo=twilio&style=flat&logoColor=white) using 
   [![Twilio-Ruby](https://img.shields.io/badge/twilio_ruby-E9573F?logo=rubygems&style=flat&logoColor=white)](https://github.com/twilio/twilio-ruby)
 
-<!--
 ## How to run it
 
-The project was using Twilio Whatsapp Sandbox which experies three days after joining.
+The project was using Twilio Whatsapp Sandbox which expires three days after joining. Since this was a project to study I did not set any production environment to run it.
 
-*Observation: The project is using Twilio Whatsapp Sandbox.*
--->
+But it is possible to run this project on your machine, configure a Twilio account, connect them and make it work.
 
+- Configure Twilio Whatsapp Sandbox
+  - To configure it read **Configure your Whatsapp sandbox** section from [this article](https://www.twilio.com/blog/whatsapp-chatbot-ruby-sinatra-twilio).
+- Run Rails server
+  1. Clone this repository.
+  2. Run `bundle install` to install dependencies.
+  3. Run `rails db:migrate` to set the database.
+  4. Run `rails s` to execute the rails server.
+- Hooking up the bot to Whatsapp
+  - Read the section **Hooking up the bot to Whatsapp** from [the same article](https://www.twilio.com/blog/whatsapp-chatbot-ruby-sinatra-twilio).
+  - **Important:** After starting ngrok replace the ngrok URL [here](https://github.com/bc-nogueira/whatsapp-todo/blob/main/config/environments/development.rb#L53) with your own ngrok URL.
+
+You are good to go!
 
 ## Available commands
 
